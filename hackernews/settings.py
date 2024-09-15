@@ -26,6 +26,8 @@ SECRET_KEY = 'django-insecure-anrbsyp+sebb^dx5a6p7p15w5uc!_g6m_$e4a3ts^!8_6gpap8
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
+CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_CREDENTIALS = True
 
 
 # Application definition
@@ -104,9 +106,12 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
+    "https://hacker-news-ykvv.onrender.com",
+    "https://hackernews-story.netlify.app/",
     "http://localhost:3000",
 ]
 
+CORS_ALLOW_CREDENTIALS = True
 # Internationalization
 # https://docs.djangoproject.com/en/5.1/topics/i18n/
 
