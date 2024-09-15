@@ -107,7 +107,6 @@ AUTH_PASSWORD_VALIDATORS = [
 
 CORS_ALLOWED_ORIGINS = [
     "https://hacker-news-ykvv.onrender.com",
-    "https://hackernews-story.netlify.app/",
     "http://localhost:3000",
 ]
 
